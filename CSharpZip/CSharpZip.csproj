@@ -54,6 +54,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zip\Zip.cs" />
+    <Compile Include="Zip\ZipHeader.cs" />
+    <Compile Include="Zip\SubStream.cs" />
+    <Compile Include="Zip\ZipDirHeader.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
